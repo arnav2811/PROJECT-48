@@ -793,7 +793,7 @@ function BossAttack(){
 
 // creating the attack
 function Attack(){
-  if(keyDown("a")&& fuelCount > 0){
+  if(keyDown("space")&& fuelCount > 0){
     attackArr.push(createSprite(spaceShuttle.x, spaceShuttle.y))
     for(var i = 0; i < attackArr.length; i ++){
       attackArr[i].addImage(attackImg);
